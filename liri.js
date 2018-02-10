@@ -97,7 +97,7 @@ function spotifyThis(song){
 //=====Twitter======
 function myTweets(){
 	//Grabs my twitter feed, up to 20 tweets
-	twitterFunc.get("search/tweets", {q: "natlapier", limit: 20}, function(error, tweets, response){
+	twitterFunc.get("search/tweets", {q: "njamal747", limit: 20}, function(error, tweets, response){
 		//Loops through all returned tweets, and prints the Tweet's text and time sent
 		var tw = tweets.statuses
 		var tweetObj = new Object();
